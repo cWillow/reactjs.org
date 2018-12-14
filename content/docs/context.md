@@ -167,6 +167,8 @@ The `contextType` property on a class can be assigned a Context object created b
 >
 > You can only subscribe to a single context using this API. If you need to read more than one see [Consuming Multiple Contexts](#consuming-multiple-contexts).
 >
+> This API is only available in react 16.6+
+>
 > If you are using the experimental [public class fields syntax](https://babeljs.io/docs/plugins/transform-class-properties/), you can use a **static** class field to initialize your `contextType`.
 
 
